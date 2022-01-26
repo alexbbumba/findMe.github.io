@@ -40,6 +40,11 @@ video {
   user-select: none;
 }
 
+h1 {
+  color: rgb(24, 24, 116);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h2 {
   font-size: 24px;
   margin: 10px 0 0 0;
@@ -54,6 +59,10 @@ h3 {
   padding: 0;
   font-weight: bold;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+ p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul,
@@ -250,6 +259,10 @@ hr {
   flex: 1 auto;
 }
 
+.flex-image {
+  display: flex;
+}
+
 .flex-item {
   margin: 0 20px;
 }
@@ -292,7 +305,7 @@ hr {
 }
 
 .image {
-  border-radius: 2px;
+  border-radius: 5px;
   width: 100%;
   margin: 15px 0;
   -webkit-touch-callout: none;
@@ -494,7 +507,8 @@ ol.nested>li:before {
 }
 
 .text-large {
-  font-size: 20px;
+  font-size: 60px;
+  color: rgb(47, 134, 47);
 }
 
 .text-small {
